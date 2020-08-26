@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="weatherSection.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="howsTheWeather" id="weatherSection">
+        <div class="todaysWeather" id="dailyForecast">
+
+        </div>
+        <div class="weatherWrapper">
+                <div class="hourlyWeather" id="hourly0"></div>
+                <div class="hourlyWeather" id="hourly1"></div>
+                <div class="hourlyWeather" id="hourly2"></div>
+                <div class="hourlyWeather" id="hourly3"></div>
+                <div class="hourlyWeather" id="hourly4"></div>
+                <div class="hourlyWeather" id="hourly5"></div>
+                <div class="hourlyWeather" id="hourly6"></div>
+                <div class="hourlyWeather" id="hourly7"></div>
+        </div>
+    </div>
+    <div class="bottomHalf">
+        <div class="whatsGoingOn" id="twitterFeed">
+            <div class="tweet" id="testTweet0">
+                <a href="">
+                <img src="http://pbs.twimg.com/profile_images/1166816296043859968/SFR-C-Sa_normal.jpg" alt="place holder">
+                <div class="stacker">
+                    <h4>Epic Gamer</h4>
+                    <p id=""> i can't believe you've done this, how dare you even attempt it </p>
+                </div>
+                </a>
+            </div>
+            <div class="tweet" id="testTweet">
+                <a href="">
+                <img src="http://pbs.twimg.com/profile_images/1166816296043859968/SFR-C-Sa_normal.jpg" alt="place holder">
+                <div class="stacker">
+                    <h4>Epic Gamer</h4>
+                    <p id=""> i can't believe you've done this, how dare you even attempt it </p>
+                </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="thirdOption" id="todo">
+
+        </div>
+    </div>
+    <script src="weatherAPI.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
