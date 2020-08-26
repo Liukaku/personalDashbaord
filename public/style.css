@@ -1,0 +1,105 @@
+html{
+    padding: 0;
+    margin: 0; 
+    overflow-y: ;
+}
+
+body{
+    padding: 0;
+    margin: 0; 
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.bottomHalf{
+    display: flex;
+}
+
+.thirdOption{
+    width: 50vw;
+    background-color: rgb(21, 32, 43);
+}
+
+.whatsGoingOn{
+    height: 50vh;
+    width: 50vw;
+    padding: 0;
+    margin: 0;  
+    background-color:  rgb(33, 47, 61);
+    overflow-y: scroll;
+    padding-top: 1%;
+    scroll-behavior: smooth;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.whatsGoingOn::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE and Edge */
+  .whatsGoingOn {
+    -ms-overflow-style: none;
+  }
+
+.tweet{
+    display: flex;
+    background-color: rgb(21, 32, 43);
+    width: 20%;
+    height: auto;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    min-width: 400px;
+    margin-left: 25% !important;
+    border-radius: 5px;
+}
+
+
+
+.stacker{
+    margin: 0;
+    padding: 0;
+}
+
+.tweetIcon{
+    width: auto;
+    max-height: 48px;
+    margin-right: 2%;
+    flex-shrink: 0;
+}
+
+.tweet p{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.tweet h4{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+
+.tweetImg{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 52%;
+    left: 28%;
+
+}
+
+#testTweet{
+    display: none;
+}
+
+#testTweet0{
+    display: none;
+}
